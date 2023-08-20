@@ -1,0 +1,105 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: linear-gradient(to right top, #acd6f5, #103148, #00a2ff, #7391a1, #68b5d9);
+}
+
+.header
+{
+	color: rgb(68, 86, 207);font-family: 'Yeon Sung';font-size: 56px;letter-spacing: 11px;margin-top: 81px;
+}
+.header img
+{
+	width: 78px;margin-left: -14px;
+}
+
+.login_div
+{
+	background: rgba(44, 239, 213, 0.8);float: none;border-radius: 16px;
+}
+
+.logo
+{
+	width: 81px;margin-top: 31px;border-radius: 41px;
+}
+
+#login_button
+{
+	width: 81%;border-radius: 14px;
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 19px;
+}
+
+
+#logout
+{
+	font-size: 21px; float: right;
+}
+
+
+#output
+{
+	padding: 11px; width:79%;background: rgb(167, 11, 11);border-radius: 16px;
+}
+
+.input_div_room_page
+{
+	width: 81%;
+}
+
+.input_div label
+{
+	color: rgb(200, 183, 0);font-size: 25px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255, 111, 0, 0.8);
+}
+.input_div_message_page label
+{
+	color: rgb(153, 0, 184);
+}
+.input_div_message_page #msg
+{
+	width: 81%;
+}
+.input_div_message_page button
+{
+	margin-top: 14px;
+	width: 49%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:21px;
+}
+.message_h4
+{
+	padding-left:6px;color:rgb(154, 0, 116);
+}
+
+#addRoom{
+    text-decoration: chartreuse;
+text-align: center;
+text-shadow: blue;
+}
+#logout{
+    text-decoration: crimson;
+text-align: center;
+text-shadow: aquamarine;
+}
